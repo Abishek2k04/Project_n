@@ -127,7 +127,7 @@ streamlit run 07_dashboard.py
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 * **Python**
 * **TensorFlow / Keras** – Deep Learning
@@ -138,11 +138,14 @@ streamlit run 07_dashboard.py
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **ABISHEK A**
-Data Science, Department of CSE
-**Github:** github.com/Abishek2k04
+
+**B.Tech Computer Science and Engineering Spec in Data Science**
+
+**Github:** https://www.github.com/Abishek2k04
+
 ---
 **Confusion Matrix**
 
