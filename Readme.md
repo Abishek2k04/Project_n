@@ -163,4 +163,6 @@ streamlit run 07_dashboard.py
 
 ---
 
-# THANKSYOU
+**if you occur any query just mail**
+<p><a href="mailto:abishekofficial204@gmail.com">Send email</a></p>
+
