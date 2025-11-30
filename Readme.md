@@ -50,37 +50,25 @@ Unlike traditional vibration sensors that generate false alarms, this system **l
 
 Due to file-size limits, the repository contains only a **small sample** of the original dataset in the `1_raw_data/` folder.
 
-✔ These samples are enough to validate scripts
-❗ To reproduce **94% accuracy**, use the full dataset:
-
-* **UrbanSound8K**
-* **Industrial drilling, hammering, sawing sounds**
-
 ---
-## 🔍 Full Dataset Contents
+## Full Dataset Contents
 * cnc cutting dataset/ *
 * Drilling/ *
 * Glassbreaking/ *
 * hand_saw/ *
 * UrbanSound8K/ *
 
-✔ Why they are not uploaded?
-
-The full dataset exceeds GitHub's upload limit.
-
-Only small sample files are included so the scripts can run without errors.
-
 ---
-## 🔧 Installation
+## Installation
 
-### 1️⃣ Clone the repository
+### Step:1️ Clone the repository
 
 ```bash
 git clone https://github.com/Abishek2k04/AcousticAI.git
 cd AcousticAI
 ```
 
-### 2️⃣ Install required packages
+### Step:2️ Install required packages
 
 ```bash
 pip install -r requirements.txt
@@ -88,13 +76,13 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run (Complete Workflow)
+## How to Run 
 
 ### **Step 1 — Data Preparation**
 
 Sorts raw audio into *Normal* and *Anomaly* folders.
 
-```bash
+```Terminal
 python 01_data_preparation.py
 ```
 
@@ -102,7 +90,7 @@ python 01_data_preparation.py
 
 Generates `X_data.npy` (MFCC), `y_labels.npy` (Labels).
 
-```bash
+```Terminal
 python 02_feature_extraction.py
 ```
 
@@ -110,7 +98,7 @@ python 02_feature_extraction.py
 
 (Trains with sample dataset; accuracy will be lower.)
 
-```bash
+```Terminal
 python 04_train_enhanced_model.py
 ```
 
@@ -118,7 +106,7 @@ python 04_train_enhanced_model.py
 
 Run the real-time monitoring interface:
 
-```bash
+```Terminal
 streamlit run 07_dashboard.py
 ```
 
@@ -156,4 +144,8 @@ streamlit run 07_dashboard.py
 Data Science, Department of CSE
 **Github:** github.com/Abishek2k04
 ---
+**Confusion Matrix**
+![confusion_matrix_94 65](https://github.com/user-attachments/assets/6615fa1c-971c-4fea-b937-81b9f0b17c25)
+**This Comparison Shows CNN vs CRNN**
+<img width="800" height="600" alt="final_comparison_chart" src="https://github.com/user-attachments/assets/5e61b8dd-469e-4f29-8aed-2e6dcaf37234" />
 
