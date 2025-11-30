@@ -1,4 +1,4 @@
-# 🚨 ATM Security System Using Acoustic AI
+# ATM Security System Using Acoustic AI
 
 ### **Real-Time Threat Detection Using Hybrid Deep Learning (CRNN)**
 
@@ -7,7 +7,7 @@ Unlike traditional vibration sensors that generate false alarms, this system **l
 
 ---
 
-## ⭐ Features
+##  Features
 
 * **Hybrid CRNN Architecture**
   Combines CNN (spatial feature extraction) + Bidirectional RNN (temporal rhythm analysis).
@@ -29,7 +29,7 @@ Unlike traditional vibration sensors that generate false alarms, this system **l
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── 1_raw_data/                 # (Sample Only) Raw .wav files  
@@ -46,7 +46,7 @@ Unlike traditional vibration sensors that generate false alarms, this system **l
 
 ---
 
-## 📌 Important Note About Dataset
+##  Important Note About Dataset
 
 Due to file-size limits, the repository contains only a **small sample** of the original dataset in the `1_raw_data/` folder.
 
@@ -57,7 +57,20 @@ Due to file-size limits, the repository contains only a **small sample** of the 
 * **Industrial drilling, hammering, sawing sounds**
 
 ---
+## 🔍 Full Dataset Contents
+* cnc cutting dataset/ *
+* Drilling/ *
+* Glassbreaking/ *
+* hand_saw/ *
+* UrbanSound8K/ *
 
+✔ Why they are not uploaded?
+
+The full dataset exceeds GitHub's upload limit.
+
+Only small sample files are included so the scripts can run without errors.
+
+---
 ## 🔧 Installation
 
 ### 1️⃣ Clone the repository
