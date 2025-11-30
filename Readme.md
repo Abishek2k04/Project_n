@@ -1,9 +1,3 @@
-Here you go — a **proper, clean, professional GitHub-ready `README.md`** formatted perfectly with headings, badges, code blocks, folders, and crisp structure.
-
-You can directly copy-paste this into your `README.md` file.
-
----
-
 # 🚨 ATM Security System Using Acoustic AI
 
 ### **Real-Time Threat Detection Using Hybrid Deep Learning (CRNN)**
